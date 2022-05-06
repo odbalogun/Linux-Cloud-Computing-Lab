@@ -1,7 +1,7 @@
 1. First step was to list all available location codes so I could find the nearest one
 
         az account list-locations
-2. Next was to create a Resource Group in my chosen location (South Africa)
+2. Next was to create a Resource Group in my chosen location (South Africa - Switched to Australia East for the free tier)
 
         az group create --name genericRG --location australiaeast
 3. Create the VM within the Resource Group
